@@ -1,0 +1,2 @@
+b1 npm init vite@latest demo-lai -- --template react-ts
+b2 npm i react-router-dom react-hook-form

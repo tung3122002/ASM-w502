@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "name": "tranvannam",
+      "price": "12345",
+      "img": "12345",
+      "id": 3
+    },
+    {
+      "name": "THPTMAIANHTUAN1234567",
+      "price": "123451234",
+      "img": "123456789",
+      "id": 5
+    },
+    {
+      "name": "THPTMAIANHTUAN1",
+      "price": "11111",
+      "img": "123",
+      "id": 6
+    },
+    {
+      "name": "THPTMAIANHTUAN",
+      "price": "12345",
+      "img": "TÙNG T",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
