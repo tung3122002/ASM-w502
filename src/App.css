@@ -908,3 +908,7 @@ textarea.form-control {
 .auth__register .auth__form__options .form-checkbox+.form-checkbox {
     margin-top: 18px;
 }
+
+.link {
+    text-decoration: none;
+}

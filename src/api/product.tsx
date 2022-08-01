@@ -23,3 +23,8 @@ export const remove = (id: number|string) => {
     const url = `/products/${id}`;
     return intance.get(url);
   };
+
+  export const searchProduct = (data: any) => {
+    const url = `/search?q=${data}`;
+    return intance.get(url);
+}

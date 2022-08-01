@@ -2,6 +2,7 @@ import React from "react";
 import { Product } from "../types/Product";
 
 import { Tabs } from 'antd';
+import { Link } from "react-router-dom";
 
 const { TabPane } = Tabs;
 
@@ -33,9 +34,8 @@ function ProducList(props: ProducListProps) {
         <p className="card-text">
           {product.price}
         </p>
-        <a href={`/product/${product._id}`} className="btn btn-primary">
-          Go somewhere
-        </a>
+     
+        <Link  className="btn btn-primary" to={`/product/${product._id}`}>Xem Chi Tiết</Link>
       </div>
     </div>
   </div>

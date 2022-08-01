@@ -12,10 +12,10 @@ const Header = (props: Props) => {
       <nav className="navbar navbar-expand-lg  bg-light my-4">
         <div className="menu">
           <li>
-            <a href="/#/nu"> NỮ</a>
+           <Link to={`/`}>NỮ</Link>
           </li>
           <li>
-            <a href="/#/nu">  NAM</a>
+          <Link to={`/nam`}>NAM</Link>
           </li>
           <li>
             <a href="/#/nu"> TRẺ EM</a>

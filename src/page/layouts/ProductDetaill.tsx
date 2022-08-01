@@ -121,16 +121,21 @@ const ProductDetaill = (props: Props) => {
      
           <div className="products-conten-right-bottom-big">
           <Tabs defaultActiveKey="1" centered>
-    <TabPane tab="Tab 1" key="1">
+    <TabPane tab="GIỚI THIỆU" key="1">
     Áo sơ mi cổ tròn, tay sát nách. Dáng áo xuông, xếp nếp từ cổ xuống tạo kiểu. Cài bằng khuy phía sau cổ.
 
 Không quá rườm rà, cũng chẳng còn đơn giản như áo sơ mi thông thường,
     </TabPane>
-    <TabPane tab="Tab 2" key="2">
-      Content of Tab Pane 2
+    <TabPane tab="CHI TIẾT SẢN PHẨM" key="2">
+    
+Dòng sản phẩm	Ladies
+Nhóm sản phẩm	Áo
+Cổ áo	Cổ tròn
     </TabPane>
-    <TabPane tab="Tab 3" key="3">
-      Content of Tab Pane 3
+    <TabPane tab="BẢO QUẢN" key="3">
+    Chi tiết bảo quản sản phẩm : 
+
+* Vải dệt kim : sau khi giặt sản phẩm phải được phơi ngang tránh bai dãn.
     </TabPane>
   </Tabs>
           </div>
